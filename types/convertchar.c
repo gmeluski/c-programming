@@ -3,7 +3,7 @@ int getcharacter(int);
 
 int main(void) {
   int lower = getcharacter('C');
-  printf("the character %d\n", lower);
+  printf("the character %c %d\n", lower, lower);
 
 }
 
